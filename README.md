@@ -36,7 +36,7 @@ This is the smart contract support ERC20 token transaction and satisifies the fo
    Design this function to solve this situation.  
    Also design the function to relieve the halt.  
      
-   3-2-4-1. R_Stop: Halt all operation of contract except R_StopUN.
-   3-2-4-2. R_StopUN: relieve the halt of all operation of contract.
+    3-2-4-1. R_Stop: Halt all operation of contract except R_StopUN.  
+    3-2-4-2. R_StopUN: relieve the halt of all operation of contract.
    
    
