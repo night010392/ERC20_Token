@@ -1,6 +1,7 @@
 # ERC20 Token
 ## 1. Goal: ##
-This is the smart contract support ERC20 token transaction and satisifies the following functions.   
+This is the smart contract support ERC20 token transaction and satisifies the following functions.
+  
  1-1. Clients can transact their ERC20 token with each other.  
  1-2. Client can exchange NTD with ERC20 token. 
  ## 2. Role: ## 
