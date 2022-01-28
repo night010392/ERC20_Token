@@ -40,7 +40,7 @@ Maintainer's function can be called by maintainer to maintain the system.
     3-2-4-1. R_Stop: Halt all operations of contract except R_StopUN.  
     3-2-4-2. R_StopUN: relieve the halt to all operations of contract.
    ## 4. Setting & Environment ##
-Language: Solidity 0.5.17.
-Simmulation Platform: Geth 1.10.15.
+Language: Solidity 0.5.17.  
+Simmulation Platform: Geth 1.10.15.  
 OS: Ubuntu 20.04.03.
 
