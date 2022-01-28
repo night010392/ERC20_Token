@@ -1,19 +1,20 @@
 # ERC20 Token
 ## 1. Goal ##
-This is the smart contract support ERC20 token transaction and satisifies the following functions.
+This is the smart contract supports ERC20 token transactions and satisifies the following functions.
   
  1-1. Clients can transact their ERC20 token with each other.  
- 1-2. Client can exchange NTD with ERC20 token. 
+ 1-2. Client can exchange NTD to ERC20 token. 
  ## 2. Role ## 
   2-1. Client.  
   2-2. Maintainer.
  ## 3. Function ##
- List the client's function can be called by client to fulfill the command client request.  
- And list the maintainer's function can be called by maintainer to maintain the system. 
+We divide all functions into client's one and maintainer's one.  
+Client's functions can be called by client to fulfill the command client request.  
+Maintainer's function can be called by maintainer to maintain the system.   
   ### 3-1. Client's Function. ###    
      3-1-1. Transfer: transact token with other client.  
-     3-1-2. Buy: exchange NTC with token.  
-     3-1-3. Balanceof: return the balance of client's token.  
+     3-1-2. Buy: exchange NTD to this token.  
+     3-1-3. Balanceof: return the balance of specific account's token.  
   ### 3-2. Maintainer's Function. ###
    #### 3-2-1. Mint & Burn. ####
     3-2-1-1. Mint: mint the token to specific account with given amount.
@@ -32,11 +33,11 @@ This is the smart contract support ERC20 token transaction and satisifies the fo
     3-2-3-2. R_BlackUN: relieve the restrcition of specific account from calling function of contract.
     3-2-3-3. R_Black_List: list all accounts under the restriction from calling function of contract.
    #### 3-2-4. Halt the contract. ####
-   Contract may sufferred from improper operation should be halted immediately.  
+   Contract may sufferred from improper operations should be halted immediately.  
    Design this function to solve this situation.  
    Also design the function to relieve the halt.  
      
-    3-2-4-1. R_Stop: Halt all operation of contract except R_StopUN.  
-    3-2-4-2. R_StopUN: relieve the halt of all operation of contract.
+    3-2-4-1. R_Stop: Halt all operations of contract except R_StopUN.  
+    3-2-4-2. R_StopUN: relieve the halt to all operations of contract.
    
    
