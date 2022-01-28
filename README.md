@@ -8,7 +8,7 @@ This is the smart contract support ERC20 token transaction and satisifies the fo
   2-1. Client.  
   2-2. Maintainer.
  ## 3. Function: ##
- List the client's function can be called by client to fulfill the command client request.
+ List the client's function can be called by client to fulfill the command client request.  
  And list the maintainer's function can be called by maintainer to maintain the system. 
   ### 3-1. Client's Function. ###    
      3-1-1. Transfer: transact token with other client.  
