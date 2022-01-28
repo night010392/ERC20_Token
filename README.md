@@ -24,4 +24,13 @@ This is the smart contract support ERC20 token transaction and satisifies the fo
     3-2-2-2. Maintainer_Add: change the role of specific account from client to maintainer.
     3-2-2-3. Maintainer_Del: change the role of specific account from manitainer to client.
     3-2-2-4. Maintainer_List: list all maintanier accounts. 
-   #### 3-2-3. ####
+   #### 3-2-3. Manage the black list.####
+   Some account may send malicious request.
+   Reserve the power for maintainer to forbid the malicious account to make transactions.  
+     
+   3-2-3.1. R_Black: restrict specific account from calling function of contract.
+   3-2-3-2. R_BlackUN: relieve the restrcition of specific account from calling function of contract.
+   3-2-3-3. R_Black_List: list all accounts under the restriction from calling function of contract.
+   
+   
+   
