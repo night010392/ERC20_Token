@@ -11,7 +11,7 @@
      3-1-2. Buy: exchange NTC with token.  
      3-1-3. Balanceof: return the balance of client's token.  
   ### 3-2. Maintainer's Function. ###
-  #### 3-2.1 Mint & Burn. ####
+   #### 3-2.1 Mint & Burn. ####
     3-2-1-1. Mint: mint the token to specific account with given amount.
     3-2-1-2. Burn: burn the token by specific account with given amount.
     3-2.1-3. Burn All: burn all token of specific account.
